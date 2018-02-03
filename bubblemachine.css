@@ -1,0 +1,42 @@
+html, body {
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+  background-color: "#2D2D2D";
+  font-family: 'Comfortaa';
+  font-size: 24px;
+}
+
+button {
+  background-color: hsla(217, 72%, 85%, 0.93);
+  width: 3.75rem;
+  height: 3.75rem;
+  margin: 0.2rem;
+  border: 0;
+  border-radius: 6px;
+  font-size: 0.7rem;
+  font-family: 'Comfortaa', cursive;
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover {
+  border: 2px solid hsla(217, 72%, 64%, 1);
+  text-shadow: 2px 2px 4px hsla(217, 72%, 64%, 0.93);
+}
+
+.container {
+  position: relative;
+}
+
+.row {
+  display: flex;
+}
+
+#buttons {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+}
