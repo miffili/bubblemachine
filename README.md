@@ -1,37 +1,29 @@
-## Welcome to GitHub Pages
+### The Bubble Machine v1.0
 
-You can use the [editor on GitHub](https://github.com/Miffili/bubblemachine/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+#### Inspiration
+This project was inspired by Daniel Shiffman's tutorial series "Foundations of Programming". For simple objects to display he uses circles and calls them bubbles. At some point, I decided to polish these bubbles a bit and code a web app to play with them.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+**» user stories**
+- I can make an artisan bubble pushing a button  
+- I can turn the machine on automatic and it makes bubbles  
+- I can toggle between chill and speed for the automatic  
+- I can toggle between monochrome bubbles and colored ones  
+- I can plopp single bubbles by touching them with my cursor  
+- I can plopp all bubbles by double click on the surface
 
-### Markdown
+#### Implementation
+For this project I wanted to implement the newly learned knowledge of event listeners and objects in JavaScript. It was also the first time I combined coding in p5 with an user interface. The movement of the bubbles is based on a sinus function with a little gravity component. After some months now, I see a lot to improve and I will revisit this project some time to:
+- improve the movements of the bubbles  
+- add functionality
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+#### Made with
+- HTML, CSS, JavaScript
+- p5.js
+♥
 
-```markdown
-Syntax highlighted code block
+#### Preview
 
-# Header 1
-## Header 2
-### Header 3
+Check out the [live preview](https://miffili.github.io/bubblemachine/)
 
-- Bulleted
-- List
+![Screenshot of The Bubble Machine](https://raw.githubusercontent.com/Miffili/bubblemachine/a00f83b6454781f867d89edfa9a61bcbe57fa22d/preview/Bubble%20Machine.png "Screenshot of The Bubble Machine")
 
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Miffili/bubblemachine/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
