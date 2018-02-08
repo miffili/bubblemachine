@@ -18,7 +18,7 @@ For this project I wanted to implement the newly learned knowledge of event list
 
 #### Made with
 - HTML, CSS, JavaScript
-- p5.js
+- p5.js  
 ♥
 
 #### Preview
